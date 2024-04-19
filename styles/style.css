@@ -147,8 +147,7 @@ ol {
 }
 
 .search-form__pseudo-checkbox {
-  position: relative;
-  display: inline-block;
+  display: flex;
   border: 1px solid #fff;
   border-spacing: 2px;
   inline-size: 19px;
@@ -166,8 +165,6 @@ ol {
 .search-form__checkbox[type='checkbox']:checked
   + .search-form__pseudo-checkbox::before {
   content: '';
-  position: absolute;
-  inset: 0;
   margin: auto;
   background-color: #fff;
   inline-size: 15px;
